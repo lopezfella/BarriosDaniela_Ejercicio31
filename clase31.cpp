@@ -57,12 +57,11 @@ void actualiza(double *nue, double *vie, double dt, double dx, int Nx){
 
 void copia(double *recibir, double *dar, int Nx){
   int i;
-  while (i<Nt):{
   for (i=0;i<Nx;i++){
     recibir[i] = dar[i];
   }
 }
-}
+
 
 void empezamos(double *psi, int Nx){
   int i;
